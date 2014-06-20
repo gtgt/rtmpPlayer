@@ -13,17 +13,17 @@ import flash.display.MovieClip;
 import flash.display.Stage;
 import flash.display.StageAlign;
 import flash.display.StageScaleMode;
-import rtmpPlayer.Controls;
+//import rtmpPlayer.Controls;
 import rtmpPlayer.Player;
-import rtmpPlayer.Poster;
+//import rtmpPlayer.Poster;
 
 class Main
 {
 	static var stage:Stage;
 	static var movieClip:MovieClip;
 	static var player:Player;
-	static var poster:Poster;
-	static var controls:Controls;
+	//static var poster:Poster;
+	//static var controls:Controls;
 
 	public static function main():Void
 	{
@@ -37,13 +37,15 @@ class Main
 		player = new Player(parameters.source, parameters.server);
 		movieClip.addChild(player);
 
-		if (parameters.poster != null && parameters.poster != "")
+		/*if (parameters.poster != null && parameters.poster != "")
 		{
 			poster = new Poster(parameters.poster);
 			movieClip.addChild(poster);
 		}
 
 		controls = new Controls(player, poster);
-		movieClip.addChild(controls);
+		movieClip.addChild(controls);*/
+		
+		player.play();
 	}
 }

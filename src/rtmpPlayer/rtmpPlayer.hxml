@@ -1,0 +1,9 @@
+-cp Source
+-cp ../MinimalCompsHX/Source
+-main rtmpPlayer.Main
+-swf ../../bin/rtmpPlayer.swf
+-swf-header 550:400:30:FFFFFF
+-swf-version 11
+-lib openfl
+-lib nme
+-v

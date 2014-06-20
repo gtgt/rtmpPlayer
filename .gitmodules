@@ -1,0 +1,3 @@
+[submodule "src/MinimalCompsHX"]
+	path = src/MinimalCompsHX
+	url = https://github.com/Beeblerox/MinimalCompsHX

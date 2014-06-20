@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Source/rtmpPlayer/Main.hx">
+    <Files>
+      <File FileName="rtmpPlayer.hxml" Line="6" Column="16" />
+      <File FileName="Source/rtmpPlayer/Main.hx" Line="23" Column="33" />
+      <File FileName="Source/rtmpPlayer/Player.hx" Line="11" Column="18" />
+      <File FileName="Source/rtmpPlayer/Controls.hx" Line="42" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
