@@ -13,9 +13,9 @@ import flash.display.MovieClip;
 import flash.display.Stage;
 import flash.display.StageAlign;
 import flash.display.StageScaleMode;
-//import rtmpPlayer.Controls;
 import rtmpPlayer.Player;
-//import rtmpPlayer.Poster;
+/*import rtmpPlayer.Controls;
+import rtmpPlayer.Poster;*/
 
 class Main
 {
